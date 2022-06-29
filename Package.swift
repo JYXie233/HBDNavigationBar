@@ -22,8 +22,8 @@ let package = Package(
             name: "HBDNavigationBar",
             dependencies: [],
             path: ".",
-            publicHeadersPath: "HBDNavigationBar/Classes",
             sources: ["HBDNavigationBar/Classes"],
+            publicHeadersPath: "HBDNavigationBar/Classes",
             linkerSettings: [
                 .linkedFramework("UIKit")
             ]
