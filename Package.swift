@@ -21,10 +21,10 @@ let package = Package(
         .target(
             name: "HBDNavigationBar",
             dependencies: [],
+                        exclude: ["Example"],
             path: ".",
             sources: ["HBDNavigationBar/Classes"],
             publicHeadersPath: ".",
-            exclude: ["Example"],
             linkerSettings: [
                 .linkedFramework("UIKit")
             ]
