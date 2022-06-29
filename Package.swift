@@ -24,7 +24,7 @@ let package = Package(
             path: ".",  
             exclude: ["Example"],
             sources: ["HBDNavigationBar/Classes"],
-            publicHeadersPath: "HBDNavigationBar/Classes",
+            publicHeadersPath: "HBDNavigationBar",
             linkerSettings: [
                 .linkedFramework("UIKit")
             ]
