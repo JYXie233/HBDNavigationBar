@@ -22,7 +22,7 @@ let package = Package(
             name: "HBDNavigationBar",
             dependencies: [],
             path: ".",
-            sources: ["HBDNavigationBar"],
+            sources: ["HBDNavigationBar/Classes"],
             linkerSettings: [
                 .linkedFramework("UIKit")
             ]
